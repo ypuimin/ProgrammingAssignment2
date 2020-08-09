@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## cacheSolve function calculates the inverse of a matrix that is defined in the function makeCacheMatrix
+## by fetching it through get() function. This inverse is then set in the function setInverse()
+## so anytime same inverse is required, cacheSolve gets the results through the getInverse() function
+## in the cache of the program.
 
 ## This function creates a vector containing a function to set and 
 ## get the value of the inverse 
